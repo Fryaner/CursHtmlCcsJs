@@ -1,0 +1,214 @@
+.banner {
+	background-image: url(../img/phone.jpeg);
+	background-size: cover;
+	height: 90vh;
+	background-repeat: no-repeat;	
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	display: flex;
+	border-top: 1px solid black;	
+	position: relative;
+
+}
+.banner__title {
+	text-align: center;
+}
+.banner__title h2 {
+	font-size: 6em;
+}
+.banner__title a {
+	position: absolute;
+	bottom: 20px;
+	left: calc(50% - 12.5px);
+	background-image: url(../img/arrow.png);
+	background-size: 40px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: inline-block;
+	border: 2px solid;
+	padding: 25px;
+	border-radius: 50%;
+}
+.banner__title a:hover {
+	background-color: white;
+	opacity: .8;
+}
+/*//////////////////////////////////////////////*/
+.line {
+	background-color: #C4C4C4;
+}
+.line-element {
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+.line-element__block {	
+	padding: 110px 40px 10px 40px;
+	color: #000;
+	text-transform: uppercase;
+	font-size: 3em;
+}
+.line-element__block:nth-child(1) {
+	background: url(../img/html.png) no-repeat center 5px;
+	background-size: 100px;
+}
+.line-element__block:nth-child(2) {
+	background: url(../img/css.png) no-repeat center 10px;
+	background-size: 100px;
+}
+.line-element__block:nth-child(3) {
+	background: url(../img/js.png) no-repeat center 10px;
+	background-size: 100px;
+}
+/*//////////////////////////////////////////*/
+.info {
+	background-color: #393E46;
+}
+.info section {
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 60px;
+		flex-wrap: wrap;
+}
+.info-item {
+	width: 30%;
+	height: 100%;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+.info-item__title {
+	background-color: #E23E57;
+	text-align: center;
+	font-size: 2.6em;
+	padding: 10px;
+}
+.title-2 {
+	background-color: #3F72AF;
+}
+.info-item__text {
+	text-align: left;
+	font-size: 1.4em;
+	padding: 20px 30px 40px 30px;
+	background-color: #C9D6DF;
+}
+.info-item__btn {
+	background-color: #E23E57;
+	font-size: 1.8em;
+	text-align: center;
+	text-transform: uppercase;
+}
+.info-item__btn a {
+	padding: 10px 80px;
+	display: inline-block;
+}
+.info-item__btn a:hover {
+	opacity: 0.4;
+}
+.btn-2 {
+	background-color: #3F72AF;
+}
+.info-image {
+	display: flex;
+	margin-bottom: 40px;
+}
+.info-image__block-1, .info-image__block-2 {
+	width: 200px;
+}
+.info-image__block-2 {
+	margin-top: 30px;
+}
+.info-image img {
+	width: 100%;
+	padding: 0 10px 6px 0;
+}
+/*//////////////////////////////////////////////*/
+.pop {
+	display: none;
+}
+.cool {
+	width: 600px;
+	height: 450px;
+	background-color: #C9D6DF;
+	border-radius: 5px;
+	border: 1px solid black;
+	position: fixed;
+	left: calc(50% - 300px);
+	top: calc(50% - 225px);
+	opacity: 1;
+	display: block;
+}
+.cool a {
+	position: absolute;
+	right: 5px;
+	top: -40px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.wF {
+	background-color: white;
+}
+.pinfo {
+	display: flex;
+	padding: 20px;
+}
+.ptitle {
+	background-color: #E23E57;
+	padding: 20px;
+	font-size: 3em;
+	border-bottom: 2px solid black;
+	background-image: url(../img/front-end.png);
+	background-position: 95% center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+.ptext {
+	font-size: 1.4em;
+	width: 49%;
+	margin-right: 30px;
+}
+.pimage {
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.pimage img {
+	width: 100%;
+	margin-bottom: 30px;
+}
+.ptitle2 {
+	background-color: #3F72AF;
+	padding: 20px;
+	font-size: 3em;
+	border-bottom: 2px solid;
+	background-image: url(../img/back-end.png);
+	background-position: 95% center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+#closeOne, #closeTwo{
+	padding: 8px 5px;
+	border-radius: 3px;
+	color:white;
+	transition: .5s;
+}
+#closeOne:hover, #closeTwo:hover {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+	transition: .5s;
+}
+#closeTwo {
+	background-color: black;
+	border: 1px solid white;
+}
+#closeOne {
+	background-color: black;
+	border: 1px solid white;
+
+}

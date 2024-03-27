@@ -1,0 +1,138 @@
+.banner {
+	background-image: url(../img/fon_4.jpg);
+	background-size: cover;
+	height: 90vh;
+	background-repeat: no-repeat;	
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	border-top: 1px solid black;
+}
+.banner {
+	position: relative;
+}
+.banner__title {
+	text-align: center;
+}
+.banner__title h2 {
+	font-size: 6em;
+}
+.banner__title h3 {
+	font-size: 2em;
+}
+.banner__title a {
+	position: absolute;
+	bottom: 20px;
+	left: calc(50% - 25px);
+	background-image: url(../img/arrow.png);
+	background-size: 40px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: inline-block;
+	border: 2px solid;
+	padding: 25px;
+	border-radius: 50%;
+}
+.banner__title a:hover {
+	background-color: white;
+	opacity: .8;
+}
+.info {
+	max-width: 900px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+.info-fon{
+	background-color: #393E46;
+}
+.info__text h2 {
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+	margin: 20px 0;
+}
+.text__text p {
+	border: 1px solid black;
+	padding: 10px;
+	font-size: 1.4em;
+	background-color: #C9D6DF;
+	border-radius: 3px;
+	letter-spacing: 1px;
+	line-height: 1.3em;
+}
+.text__text span {
+	color: #eab63e;
+	font-weight: bold;
+}
+.info__text {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+}
+.text__text {
+	width: 49%;
+	margin-left: 30px;
+}
+.text__image {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 250px;
+}
+.text__image img {
+	width: 100%;
+	margin-top: 30px;
+	padding: 5px;
+	background-color: #eab63e;
+}
+.text__image img:first-child {
+	margin-top: 70px;
+}
+.info__example {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+.example__title h2 {
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+	margin: 20px 0;	
+	font-weight: bold;
+}
+.example__text {
+	border: 1px solid black;
+	padding: 10px;
+	font-size: 1.4em;
+	background-color: #C9D6DF;
+	border-radius: 3px;
+	letter-spacing: 1px;
+	line-height: 1.3em;
+}
+.example__text p {
+	margin-bottom: 10px;
+}
+.example__text ul {
+	list-style: circle;
+}
+.example__text li {
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+.example__image {
+	width: 250px;
+	margin-top: 16%;
+}
+.example__image img {
+	width: 100%;
+	margin-top: 30px;
+	padding: 5px;
+	background-color: #eab63e;
+}
+.example__image img:last-child {
+	margin:bottom; 0;
+}
+.example__main {
+	width: 49%;
+	margin-right: 30px;
+}
